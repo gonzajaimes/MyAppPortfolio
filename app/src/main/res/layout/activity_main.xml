@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Title"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        />
+    <Button
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16sp"
+        android:text="Spotify Streamer"
+        android:padding="24dp"
+        android:layout_marginBottom="8dp"
+        android:background="#F08C35"
+        android:onClick="spotifyStreamerAction"
+        />
+    <Button
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16sp"
+        android:text="Scores App"
+        android:padding="24dp"
+        android:layout_marginBottom="8dp"
+        android:background="#F08C35"
+        android:onClick="scoresAction"
+        />
+    <Button
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16sp"
+        android:text="Library App"
+        android:padding="24dp"
+        android:layout_marginBottom="8dp"
+        android:background="#F08C35"
+        android:onClick="libraryAction"
+        />
+    <Button
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16sp"
+        android:text="Build It Bigger"
+        android:padding="24dp"
+        android:layout_marginBottom="8dp"
+        android:background="#F08C35"
+        android:onClick="buildItBiggerAction"
+        />
+    <Button
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16sp"
+        android:text="XYZ Reader"
+        android:padding="24dp"
+        android:layout_marginBottom="8dp"
+        android:background="#F08C35"
+        android:onClick="xyzReaderAction"
+
+        />
+    <Button
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16sp"
+        android:text="Capstone: My Own App"
+        android:padding="24dp"
+        android:background="#D32F2F"
+        android:onClick="capstoneAction"
+
+        />
+</LinearLayout>
